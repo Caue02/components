@@ -48,16 +48,14 @@ table{
   text-align: left;
 }
 
-.image{
-  padding-right: 0;
-  width: 45px;
-}
-
 .table-content th,td{
   padding-right: 30px;
   height: 50px;
   white-space:nowrap;
   border-radius: 5px;
+}
+
+.table-content td{
   cursor: pointer;
 }
 
@@ -67,9 +65,9 @@ img{
  border-radius: 50%;
 }
 
-
-.grey-row{
-  background-color: #F6F6F6;
+.image{
+  padding-right: 0;
+  width: 45px;
 }
 
 image-icon{
@@ -93,6 +91,10 @@ image-icon{
   color: #FFFFFF;
 }
 
-.circle-color-yellow{
+.circle-color-orange{
   background-color: #F5A623;
+}
+
+.grey-row{
+  background-color: #F6F6F6;
 }
