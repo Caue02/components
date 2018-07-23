@@ -1,0 +1,137 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.card{
+  height: auto;
+  width: 740px;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+
+.header{
+  height: 50px;
+  width: 100%;
+}
+
+.text-comp{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 25px;
+}
+
+.text-sub{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  left: 140px;
+  width: 630px;
+  height: auto;
+  position: relative;
+  bottom: 33px;
+  position: relative;
+  font-size: 14px;
+}
+
+.text-end{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 70px;
+  right: 25px;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cardInfo{
+  height: auto;
+  width: 213px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.cardInfo h2{
+  font-size: 45px;
+  position: static;
+  margin-top: auto;
+  color: #4A4A4A;
+}
+
+.text-h2{
+  color: #DCDCDC;
+}
+
+.cardInfo p{
+  position: relative;
+  float: left;
+  bottom: 50px;
+}
+
+.pai-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  bottom:40px;
+}
+
+.text{
+  position: relative;
+  top: 1px;
+  color: #DCDCDC;
+  line-height:1px;
+}
+
+.minute{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  position: relative;
+  top: 1px;
+  line-height:1px;
+}
+
+.card-green .color-green{
+  height: 3px;
+  width: 100%;
+  background-color: #7ED321;
+}
+
+.card-orange .color-orange{
+  height: 3px;
+  width: 100%;
+  background-color:#F5A623;
+}
+
+.card-red .color-red{
+  height: 3px;
+  width: 100%;
+  background-color: #EA4143;
+}
+
+.risc{
+  background-color: #DCDCDC;
+  height: 170px;
+  width: 1px;
+  position: relative;
+  top: 10px;
+}

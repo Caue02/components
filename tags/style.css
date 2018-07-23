@@ -1,0 +1,145 @@
+ body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15;
+}
+
+.container{
+  height: 265px;
+  width: 310px;
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 0 1px 5px 0 rgba(204,204,204,0.75);
+}
+
+.bar{
+  height: 40px;
+  width: 100%;
+  position: relative;
+  background-color: #F6F6F6;
+	border-radius:5px 5px 0px 0px ;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.bar p{
+  margin-left: 13px;
+  color: #4A4A4A;
+  flex-direction: row;
+  font-size: 13px;
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+}
+
+.bar button{
+  color:#EA4143;
+  border: transparent;
+  background: transparent;
+  font-size: 13px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  height: 75%;
+  overflow-y:auto;
+  margin-right: 5px;
+}
+
+.list h2{
+  color: rgba(204,204,204,0.75);
+  font-size: 13px;
+  margin-left: 10px;
+  font-weight: 100;
+}
+
+.list ul{
+  padding: 5px;
+  font-size: 14px;
+  color: #4A4A4A;
+  display: flex;
+  flex-direction: column;
+}
+
+.list li{
+  height: 30px;
+	color: #4A4A4A;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+li:hover{
+  background:#F5F5F5;
+  border-radius: 3px;
+}
+
+.list input{
+  height: 16px;
+  width: 16px;
+  border-radius: 3px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 5px 0 rgba(204,204,204,0.75);
+  margin-top: 5px;
+}
+
+input:hover{
+  cursor:pointer;
+}
+
+.list label{
+  font-size: 14px;
+  color:#4A4A4A;
+  padding: 10px;
+}
+
+.circle{
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  background-color: #F5A623;
+  position: relative;
+  float: right;
+  margin-top: 6px;
+  position: sticky;
+  left: 300px;
+  margin-bottom: 7px
+}
+
+.botao{
+  display: block;
+  cursor: pointer;
+	height: 50px;
+  width: 100%;
+}
+
+.botao button{
+  height: 50px;
+  width: 100%;
+  background-color: #4a90e2;
+  border-radius: 0px 0px 5px 5px ;
+  border-color: transparent;
+  color: #FFF;
+  font-size: 14px;
+}
+
+button:hover{
+  cursor:pointer;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+  height: 120px;
+  opacity: 0.5;
+}
+
+::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #D8D8D8;
+  border-radius: 100px;
+  height: 120px;
+}
