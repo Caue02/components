@@ -1,0 +1,26 @@
+body{
+ font-family: 'Roboto', sans-serif;
+}
+
+.card{
+  display: flex;
+  height: 230px;
+  width: 280px;
+  border: 1px solid #F6F6F6;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height:40px;
+  width: 100%;
+  padding: 20px 20px 20px 25px;
+}
+
+h2{
+  font-size: 20px;
+}
