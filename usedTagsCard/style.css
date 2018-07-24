@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+  height: 330px;
+  width: 300px;
+  background-color: #f6f6f6;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 3px
+}
+
+.header h2{
+  display: flex;
+  flex-direction: row;
+  font-size: 19px;
+  margin-left: 20px;
+  color:#696969;
+  white-space: nowrap;
+}
+
+.header p{
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  color:#696969;
+  white-space: nowrap;
+}
+
+.button-end{
+  display: block;
+  cursor: pointer;
+  position: relative;
+  top: 280px;
+  right: 235px;
+}
+
+button{
+  height: 50px;
+  width: 300px;
+  background-color: red;
+  border-color: transparent;
+  color: #4a90e2;
+  font-size: 14px;
+
+}
